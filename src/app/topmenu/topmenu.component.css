@@ -1,0 +1,65 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.top-menu {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #78a634;
+    color: white;
+    font-size: 14px;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.top-menu-left span,
+.top-menu-right a {
+   display: inline-block;;
+   margin-right: 20px;
+   color: white;
+   text-decoration: none;
+}
+
+.top-menu-left mat-icon {
+    vertical-align: middle;
+    margin-right: 8px;
+    font-size: 20px; 
+    color: white;
+}
+
+.top-menu-right a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    background-color: #5b7e1b;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+}
+
+.top-menu-right a i {
+    font-size: 16px;
+}
+
+.top-menu-right a:hover {
+    background-color: #4d6815;
+}
+
+at-icon {
+    font-size: 24px;
+    color: white;
+}
