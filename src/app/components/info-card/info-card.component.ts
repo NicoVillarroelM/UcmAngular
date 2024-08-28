@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import { title } from 'process';
-import { text } from 'stream/consumers';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-info-card',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './info-card.component.html',
   styleUrl: './info-card.component.css'
 })
